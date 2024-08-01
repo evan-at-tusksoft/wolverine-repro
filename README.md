@@ -1,6 +1,6 @@
 ## Debugging
 
-1. Navigate to the `WolverineRepro` project directory and run `docker compose up -d`
+1. Run `docker compose up -d` to spin up a PostgreSQL instance in Docker
 2. Start debugging the app
 3. Using the Swagger UI, execute the `sendmessage` endpoint
 4. Observe the following exception on each retry attempt:
