@@ -1,0 +1,10 @@
+services:
+  postgresql:
+    image: "postgres:latest"
+    ports:
+     - "5433:5432"
+    environment:    
+      - TZ=Etc/UTC
+      - POSTGRES_DATABASE=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
